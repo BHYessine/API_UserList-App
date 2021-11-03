@@ -1,3 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
 
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #0099cc 0%, #99ccff 100%);
+  font-family: 'Zen Antique Soft', serif;
+}
+.cardList{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;  
+  margin: 0;
+  padding: 50px;
+}
+.userCard{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000099;
+  box-shadow: 5px 10px 30px black;
+  border-radius: 10px;
+  color: white;  
+}
+.userImg{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 140px;  
+  padding: 10px;
+}
+.userImg img{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+.userBio {
+  display: flex;
+  justify-content: left;
+  flex-direction: column; 
+  width: 480px;
+  height: 190px;
+  padding: 5px;
+}
+.userBio li {
+  padding: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: left;
+}
+.userCard li {
+  list-style: none;  
+}
+.icon {
+  width: 35px;
+  height: 25px;
+  padding-right: 10px;
+}
 
 
