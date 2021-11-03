@@ -17,7 +17,7 @@ function UserList() {
     
     return (
         <div>
-            <ul>
+            <ul className="cardList" >
                 {data.map(course => (
                     <ListOfUser 
                         user = {course}
